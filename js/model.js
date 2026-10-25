@@ -5,10 +5,10 @@
 
 const Model = {
 
-  githubUser: "Numal400",
+  githubUser: "fktereg-svg",
 
   // Where the contact form delivers (via formsubmit.co relay)
-  contactEmail: "numaldas500@gmail.com",
+  contactEmail: "regzaaditirta@gmail.com",
 
   // App state (read/written by the Controller, displayed by the View)
   state: {
@@ -21,34 +21,42 @@ const Model = {
   // ---- Featured projects (hand-written, shown above the GitHub feed) ----
   featured: [
     {
-      title: "7th SEMESTER PROJECT",
+      title: "JARVIS AI AGENT LIVEKIT",
       tag: "Live App", color: "#3dc8ff", live: true,
-      url: "https://github.com/Numal400/7th_Semester_Project.git", cta: "View on GitHub →",
+      url: "https://github.com/fktereg-svg/livekit_agent_jarvis", cta: "View on GitHub →",
       img: "assets/projects/bsl.png",
-      desc: "PROJECT FOR ECE",
+      desc: "A Simple project for understanding and building your first agent",
     },
     {
-      title: "OSCILLOSCOPE",
+      title: "FRIDAY AGENT VERSION",
       tag: "NLP", color: "#0064e6",
-      url: "https://github.com/Numal400/oscilloscope.git",
+      url: "https://github.com/fktereg-svg/livekit_friday",
       cta: "View on GitHub →",
       img: "assets/projects/steam.png",
-      desc: "Code for digital Oscilloscope on Raspberry Pi5",
+      desc: "Same code from JARVIS AI AGENT LIVEKIT but with a different name and characteristics",
     },
     {
-      title: "IMPORTANT PAGE",
+      title: "PRTS AI From Arknights",
       tag: "Security", color: "#f1e05a",
-      url: "https://github.com/Numal400/ImportantByNumal-page.git", cta: "View on GitHub →",
+      url: "https://github.com/fktereg-svg/arknights_prts", cta: "View on GitHub →",
       img: "assets/projects/downloadguard.png",
-      desc: "Just a page",
+      desc: "An AI Agent with characteristics of PRTS from Arknights, built with LiveKit and OpenAI API",
+    },
+    {
+      title: "Random Page",
+      tag: "Security", color: "#f1e05a",
+      url: "https://github.com/fktereg-svg/arknights_prts", cta: "View on GitHub →",
+      img: "assets/projects/downloadguard.png",
+      desc: "just a random page to test the website, it has no purpose and is not important",
     },
   ],
 
   // Repos already shown in "featured" get hidden from the GitHub feed
   featuredRepoNames: [
-    "7th SEMESTER PROJECT",
-    "OSCILLOSCOPE",
-    "IMPORTANT PAGE",
+    "JARVIS AI AGENT LIVEKIT",
+    "FRIDAY AGENT VERSION",
+    "PRTS AI From Arknights",
+    "Random Page",
   ],
 
   // Shown if the GitHub API can't be reached
@@ -90,18 +98,21 @@ const Model = {
   // ---- Skills screen ----
   skills: [
     { group: "AI · ML", items: [
-      ["Python · Java · C++", 50], ["Chat GPT", 88],
+      ["Python · Java · C++", 50], ["Chat GPT", 80],
       ["Gemini", 86], ["Meshy AI", 85],
-      ["NLP & Transformers", 82], ["MediaPipe", 86],
+      ["Claude", 82], ["Prompt Engineering", 86],
     ]},
-    { group: "Cloud & Engineering", items: [
-      ["Git & GitHub", 88], ["Azure", 74],
-      ["Multisim", 76], ["LT Spice", 80],
-      ["Raspberry", 90], ["Bash · PowerShell", 67],
-      ["Proteus · Blender", 60],
+    { group: "Software & Engineering", items: [
+      ["FluidSIM", 88], ["SOLIDWORKS", 74],
+      ["ARDUINO IDE", 76], ["EAGLE", 80],
+      ["Kicad", 90], ["Office Applications", 70],
+      ["Proteus", 60],
     ]},
-    { group: "Spoken Languages", items: [
+    { group: "Spoken Languages & Skills", items: [
       ["English", 88], ["Japanese (JLPT N5)", 75], ["Javanese", 80], ["Indonesian", 100]
+    ]},
+    { group: "Practical Skills", items: [
+      ["Circuit Design", 88], ["PCB Design", 60], ["Reading Diagrams", 80], ["Debugging", 75]
     ]},
   ],
 
